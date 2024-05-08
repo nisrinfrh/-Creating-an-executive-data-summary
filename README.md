@@ -140,6 +140,21 @@ The syntax for the formula in C14 was:
 
 ![Screenshot (181)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/b87f0fd0-a445-4641-b479-26d41fb473e6)
 
+I created a Percentage difference formula in D6 which showed the percentage by which sales increased in 2023.
+
+To determine the percentage difference between the results for 2022 and 2023, the total for 2022 first had to 
+
+be subtracted from the 2023 total. The result had then to be divided by the result for 2022. 
+
+ The syntax for the formula in D6 was:
+ 
+**"=(C6-B6)/B6"**
+
+I created a similar formula in D12 and copied the calculation in D12 down to D14. 
+
+**"=(C12-B12)/B12"**
+**"=(C13-B13)/B1"**
+**"=(C14-B14)/B14"**
 
 
 
