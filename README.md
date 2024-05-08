@@ -16,16 +16,36 @@ highlighting important results. I also had to use formulas to:
 
 **Use a logical function to test the order value and display the correct tax amount.**
 
-## Step 1: Download the Fil
+## PREPARE DATA
 
-You began by downloading and opening the Microsoft Excel workbook "Quarter One Report.xlsx," which featured a single worksheet named "Summary." This sheet presented sales data for particular products across two years, encompassing wholesale and retail prices alongside sales quantities.
+I started by downloading and opening the Microsoft Excel workbook "Quarter One Report.xlsx,"
 
-then I adjust and organiz headings in the Excel sheet.
+Containing a single worksheet labeled "Summary." This sheet displayed sales information for specific 
 
-Next,I selected  A cell A4 and typed the heading TOTAL Q1 SALES. Then I
-selected cell A10 and typed the heading Q1 MONTHLY TOTALS.
-When the heading had been added to A4 and A10 I  applied a range of 
-formatting choices to ensure that the headings had impact
+Products over two years, including wholesale and retail prices as well as sales quantities.
+
+Afterward, I adjusted and organized the headings in the Excel sheet. Initially, I selected cell
+
+A4 and inputted the heading "TOTAL Q1 SALES." Then, I chose cell A10 and typed "Q1 MONTHLY TOTALS" as
+
+The heading. Once the headings were added to cells A4 and A10, I applied various formatting options 
+
+To ensure they were visually impactful.
+
+
+https://github.com/nisrinfrh/nisrinfrh.github.io./issues/1#issue-2285861812
+
+The entries  in column G was originally in all capital letters, but we needed to change it. 
+
+I devised a formula utilizing the PROPER function, which adjusts text case.
+
+This formula formats text into lowercase while capitalizing the first letter of each word.
+
+The formula's syntax is: 
+
+**=PROPER(G2)**. Upon application, the content in cell H2 transformed into *"Mountain Bikes"*
+
+
 
 
 
