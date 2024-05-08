@@ -84,6 +84,9 @@ The syntax for the formula in Q2 was
 
 
 
+![Screenshot (177)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/2a163590-1953-4425-b8bb-619706087d25)
+
+
 
 
 
