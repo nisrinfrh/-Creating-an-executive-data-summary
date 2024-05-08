@@ -32,8 +32,7 @@ The heading. Once the headings were added to cells A4 and A10, I applied various
 
 To ensure they were visually impactful.
 
-
-https://github.com/nisrinfrh/nisrinfrh.github.io./issues/1#issue-2285861812
+![Screenshot (174)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/4e0888d7-585a-40fc-a1b5-c991335aced7)
 
 The entries  in column G was originally in all capital letters, but we needed to change it. 
 
