@@ -159,11 +159,16 @@ I created a similar formula in D12 and copied the calculation in D12 down to D14
 ![Screenshot (183)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/0a56af12-2b35-496b-a201-c58eb86c4f55)
 
 ### Conclusion 
-In this Case, i were tasked with using a variety of formatting skills and 
-with creating a range of formulas to create data columns in a spreadsheet and 
-calculate customized totals.
-I transformed the standard sales data into a data summary that could be 
-used to inform and drive business decisions
+In this scenario, my assignment involved employing a diverse set of formatting techniques and crafting various
+
+Formulas to generate data columns within a spreadsheet. My objective was to compute tailored totals and 
+
+Transform standard sales data into a concise summary, primed to guide and influence business decisions.
+
+
+
+
+
 
 
 
