@@ -101,6 +101,28 @@ The syntax for the formula in C6 was:
 **"=SUMIF(L2:L246,2023,R2:R246)"**
 
 
+![Screenshot (180)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/65152c7f-2bfa-41ce-82c6-74027091751a)
+
+
+ Icreated a SUMIFS to sum the total for janaury month in cell B12, febroary month in a cell march month in a ceel B13
+ 
+ I  added dollar signs to the R and K cell references so that the formula could be copied down.
+ 
+The syntax for the formula in B12 was: 
+
+**"=SUMIFS($R2:$R246,$L2:$L246,"2022",K2:K246,1)"**
+
+The syntax for the formula in B13 was:
+
+**"=SUMIFS($R2:$R246,$L2:$L246,"2022",K2:K246,2)"**
+
+The syntax for the formula in B14 was:
+
+**"=SUMIFS($R2:$R246,$L2:$L246,"2022",K2:K246,3)"**
+
+
+
+
 
 
 
