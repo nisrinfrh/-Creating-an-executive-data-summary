@@ -86,6 +86,21 @@ The syntax for the formula in Q2 was
 
 ![Screenshot (177)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/2a163590-1953-4425-b8bb-619706087d25)
 
+In cell B6, I created a SUMIF formula to sum the sales values for 2022. The sales values were in the 
+
+Range R2 to R246. The criteria range was the range L2 to L246 .then I created a similar formula in 
+
+Cell C6 with the same cell ranges but changed the criteria to 2023. 
+
+The syntax for the formula in B6 was:
+
+**"=SUMIF(L2:L246,2022,R2:R246)"**
+
+The syntax for the formula in C6 was:
+
+**"=SUMIF(L2:L246,2023,R2:R246)"**
+
+
 
 
 
