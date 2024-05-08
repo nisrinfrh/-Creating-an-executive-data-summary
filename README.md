@@ -48,7 +48,7 @@ The formula's syntax is:
 
 PROSSES DATA 
 
-To create new columns for month and year, I crafted a formula in cell K2 utilizing the MONTH function,
+Create new columns for month and year, I crafted a formula in cell K2 utilizing the MONTH function,
 
 And another in cell L2 using the YEAR function. These formulas extracted the respective components from 
 
@@ -66,6 +66,21 @@ The syntax for the formula in L2 was
 
 ![Screenshot (176)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/d85cd067-55f4-4815-8547-83b067c17f7b)
 
+ Created a standard multiplication formula that multiplied the retail price by the order quantity. 
+
+The syntax for the formula in P2 was
+
+**"=N2*O2"**
+
+In cell Q2,I created a formula using an IF function that calculated  tax .
+
+The IF function had to check if the amount in P2 was over 2000. If it was, then the amount in P2
+
+Had to be multiplied by 5%. If it was not, then cell Q2  should display a 0.
+
+The syntax for the formula in Q2 was
+
+**"=IF(P2>2000,P2*5%,0)"** 
 
 
 
