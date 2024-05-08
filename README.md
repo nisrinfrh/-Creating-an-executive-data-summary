@@ -60,8 +60,11 @@ The syntax for the formula in K2 was
 
 **"=MONTH(J2)"** 
 
+The syntax for the formula in L2 was
 
+**"=YEAR(J2)"**
 
+![Screenshot (176)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/d85cd067-55f4-4815-8547-83b067c17f7b)
 
 
 
