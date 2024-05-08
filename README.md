@@ -103,10 +103,10 @@ The syntax for the formula in C6 was:
 
 ![Screenshot (180)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/65152c7f-2bfa-41ce-82c6-74027091751a)
 
-
- Icreated a SUMIFS to sum the total for janaury month in cell B12, febroary month in a cell march month in a ceel B13
+*FOR THE YEAR 2022*
+I created a SUMIFS formula to calculate the total for January in cell B12, February in cell B13, and March in cell B14. 
  
- I  added dollar signs to the R and K cell references so that the formula could be copied down.
+I added dollar signs to the R and K cell references so that the formula could be copied down.
  
 The syntax for the formula in B12 was: 
 
@@ -119,6 +119,27 @@ The syntax for the formula in B13 was:
 The syntax for the formula in B14 was:
 
 **"=SUMIFS($R2:$R246,$L2:$L246,"2022",K2:K246,3)"**
+
+![Screenshot (181)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/b87f0fd0-a445-4641-b479-26d41fb473e6)
+
+*FOR THE YEAR 2023*
+
+I did the same steps above  for the year 2023 in the cells C12, C13 ,AND C14.
+
+The syntax for the formula in C12 was: 
+
+**"=SUMIFS($R2:$R246,$L2:$L246,"2023",K2:K246,1)"**
+
+The syntax for the formula in C13 was:
+
+**"=SUMIFS($R2:$R246,$L2:$L246,"2023",K2:K246,2)"**
+
+The syntax for the formula in C14 was:
+
+**"=SUMIFS($R2:$R246,$L2:$L246,"2023",K2:K246,3)"**
+
+![Screenshot (181)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/b87f0fd0-a445-4641-b479-26d41fb473e6)
+
 
 
 
