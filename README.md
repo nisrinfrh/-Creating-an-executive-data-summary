@@ -45,6 +45,8 @@ The formula's syntax is:
 
 **=PROPER(G2)**. Upon application, the content in cell H2 transformed into *"Mountain Bikes"*
 
+![Screenshot (175)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/67c11702-0fc8-419c-9187-8fbbd5a8410b)
+
 
 
 
