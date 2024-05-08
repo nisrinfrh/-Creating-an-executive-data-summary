@@ -46,6 +46,27 @@ The formula's syntax is:
 
 ![Screenshot (175)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/67c11702-0fc8-419c-9187-8fbbd5a8410b)
 
+PROSSES DATA 
+
+To create new columns for month and year, I crafted a formula in cell K2 utilizing the MONTH function,
+
+And another in cell L2 using the YEAR function. These formulas extracted the respective components from 
+
+The date in cell J2. It was necessary to copy these formulas down to row 246. The MONTH and YEAR functions,
+
+Categorized under Date and Time, are designed to extract specific elements from a date-formatted cell. 
+
+The syntax for the formula in K2 was
+
+**"=MONTH(J2)"** 
+
+
+
+
+
+
+
+
 
 
 
