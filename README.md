@@ -45,7 +45,7 @@ We wanted to change them. So, I made a formula using the PROPER function.
 
 This formula makes all the letters lowercase and capitalizes the first letter of each word.
 
-The formula's syntax is: 
+*The formula's syntax is:* 
 
 **=PROPER(G2)**. Upon application, the content in cell "Product Category"  transformed into *"Mountain Bikes"*
 
@@ -59,29 +59,31 @@ And another in cell L2 using the **YEAR** function. These formulas extracted the
 
 The  "Order Date" column .  
 
-The syntax for the formula in K2 was
+*The syntax for the formula in K2 was*
 
 **"=MONTH(J2)"** 
 
-The syntax for the formula in L2 was
+*The syntax for the formula in L2 was*
 
 **"=YEAR(J2)"**
 
 ![Screenshot (176)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/d85cd067-55f4-4815-8547-83b067c17f7b)
 
- Created a standard multiplication formula that multiplied the retail price by the order quantity. 
+I create a new column called "Total (Before Task)" using a basic multiplication
 
-The syntax for the formula in P2 was
+Formula that multiplied the retail price by the order quantity.
+
+*The syntax for the formula in P2 was*
 
 **"=N2*O2"**
 
-In cell Q2,I created a formula using an IF function that calculated  tax .
+I utilized the IF function to calculate tax and placed it in a new column named "Tax Due" located in cell Q2.
 
-The IF function had to check if the amount in P2 was over 2000. If it was, then the amount in P2
+The IF function had to check if the amount in "Total(Befor Tax)" column was over 2000. If it was, then the amount in 
 
-Had to be multiplied by 5%. If it was not, then cell Q2  should display a 0.
+ Total(Befor Tax) column  Had to be multiplied by 5%. If it was not, then column  "Tax Due" should display a 0.
 
-The syntax for the formula in Q2 was
+*The syntax for the formula in Tasx Due was*
 
 **"=IF(P2>2000,P2*5%,0)"** 
 
