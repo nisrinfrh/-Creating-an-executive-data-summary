@@ -26,13 +26,16 @@ Containing a single worksheet labeled "Summary." This sheet displayed sales info
 
 Products over two years, including wholesale and retail prices as well as sales quantities.
 
-Afterward, I adjusted and organized the headings in the Excel sheet. Initially, I selected cell
+Next, I checked for missing and duplicate values in the data.
 
-A4 and inputted the heading "TOTAL Q1 SALES." Then, I chose cell A10 and typed "Q1 MONTHLY TOTALS" as
+Following that, I organized and adjusted the headings in the Excel sheet. 
 
-The heading. Once the headings were added to cells A4 and A10, I applied various formatting options 
+Initially, I inserted the heading "TOTAL Q1 SALES" into cell A4. Then, 
 
-To ensure they were visually impactful.
+I labeled cell A10 as "Q1 MONTHLY TOTALS." Once the headings were in place,
+
+I applied various formatting options To ensure they were visually impactful
+
 
 ![Screenshot (174)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/4e0888d7-585a-40fc-a1b5-c991335aced7)
 
