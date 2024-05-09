@@ -88,58 +88,62 @@ The IF function had to check if the amount in "Total(Befor Tax)" column was over
 **"=IF(P2>2000,P2*5%,0)"** 
 
 
-
 ![Screenshot (177)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/2a163590-1953-4425-b8bb-619706087d25)
 
+ **For TOTAL Q1 SALES**
+ 
 In cell B6, I created a SUMIF formula to sum the sales values for 2022. The sales values were in the 
 
-Range R2 to R246. The criteria range was the range L2 to L246 .then I created a similar formula in 
+"Order Total" column. The criteria  was in "Year"column.Then I created a similar formula in 
 
 Cell C6 with the same cell ranges but changed the criteria to 2023. 
 
-The syntax for the formula in B6 was:
+*The syntax for the formula in B6 was:*
 
 **"=SUMIF(L2:L246,2022,R2:R246)"**
 
-The syntax for the formula in C6 was:
+*The syntax for the formula in C6 was:*
 
 **"=SUMIF(L2:L246,2023,R2:R246)"**
 
 
 ![Screenshot (180)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/65152c7f-2bfa-41ce-82c6-74027091751a)
 
-*FOR THE YEAR 2022*
+**FOR Q1 MONTHLY TOTAL**
+
+*YEAR 2022*
+
 I created a SUMIFS formula to calculate the total for January in cell B12, February in cell B13, and March in cell B14. 
  
 I added dollar signs to the R and K cell references so that the formula could be copied down.
  
-The syntax for the formula in B12 was: 
+*The syntax for the formula in B12 was:* 
 
 **"=SUMIFS($R2:$R246,$L2:$L246,"2022",K2:K246,1)"**
 
-The syntax for the formula in B13 was:
+*The syntax for the formula in B13 was:*
 
 **"=SUMIFS($R2:$R246,$L2:$L246,"2022",K2:K246,2)"**
 
-The syntax for the formula in B14 was:
+*The syntax for the formula in B14 was:*
 
 **"=SUMIFS($R2:$R246,$L2:$L246,"2022",K2:K246,3)"**
 
 ![Screenshot (181)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/b87f0fd0-a445-4641-b479-26d41fb473e6)
 
-*FOR THE YEAR 2023*
+*YEAR 2023*
 
 I did the same steps above  for the year 2023 in the cells C12, C13 ,AND C14.
 
-The syntax for the formula in C12 was: 
+*The syntax for the formula in C12 was:* 
 
 **"=SUMIFS($R2:$R246,$L2:$L246,"2023",K2:K246,1)"**
 
-The syntax for the formula in C13 was:
+*The syntax for the formula in C13 was:*
 
 **"=SUMIFS($R2:$R246,$L2:$L246,"2023",K2:K246,2)"**
 
-The syntax for the formula in C14 was:
+*The syntax for the formula in C14 was:*
 
 **"=SUMIFS($R2:$R246,$L2:$L246,"2023",K2:K246,3)"**
 
@@ -151,7 +155,7 @@ To determine the percentage difference between the results for 2022 and 2023, th
 
 be subtracted from the 2023 total. The result had then to be divided by the result for 2022. 
 
- The syntax for the formula in D6 was:
+*The syntax for the formula in D6 was:*
  
 **"=(C6-B6)/B6"**
 
@@ -165,11 +169,20 @@ I created a similar formula in D12 and copied the calculation in D12 down to D14
 
 ### Conclusion 
 
-In this scenario, my assignment involved employing a diverse set of formatting techniques and crafting various
+In this scenario, my primary objective was to prepare data by employing essential Excel formulas
 
-Formulas to generate data columns within a spreadsheet. My objective was to compute tailored totals and 
+And functions, while also utilizing diverse formatting techniques. I created various formulas to
 
-Transform standard sales data into a concise summary, primed to guide and influence business decisions.
+Generate data columns in a spreadsheet, aiming to calculate customized totals and transform 
+
+Standard sales data into a concise summary, ready to be efficiently analyzed in PowerBI. 
+
+This prepared data will assist in making well-informed business decisions.
+
+
+
+
+
 
 
 
