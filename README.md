@@ -39,27 +39,25 @@ I applied various formatting options To ensure they were visually impactful
 
 ![Screenshot (174)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/4e0888d7-585a-40fc-a1b5-c991335aced7)
 
-The entries  in column G was originally in all capital letters, but we needed to change it. 
+The words in the "Product Category" column were all written in capital letters.
 
-I devised a formula utilizing the PROPER function, which adjusts text case.
+We wanted to change them. So, I made a formula using the PROPER function.
 
-This formula formats text into lowercase while capitalizing the first letter of each word.
+This formula makes all the letters lowercase and capitalizes the first letter of each word.
 
 The formula's syntax is: 
 
-**=PROPER(G2)**. Upon application, the content in cell H2 transformed into *"Mountain Bikes"*
+**=PROPER(G2)**. Upon application, the content in cell "Product Category"  transformed into *"Mountain Bikes"*
 
 ![Screenshot (175)](https://github.com/nisrinfrh/nisrinfrh.github.io./assets/157531427/67c11702-0fc8-419c-9187-8fbbd5a8410b)
 
-PROSSES DATA 
+## PROSSES DATA 
 
-Create new columns for month and year, I crafted a formula in cell K2 utilizing the MONTH function,
+Create new columns for month and year, I crafted a formula in cell K2 using the **MONTH** function,
 
-And another in cell L2 using the YEAR function. These formulas extracted the respective components from 
+And another in cell L2 using the **YEAR** function. These formulas extracted the respective components from 
 
-The date in cell J2. It was necessary to copy these formulas down to row 246. The MONTH and YEAR functions,
-
-Categorized under Date and Time, are designed to extract specific elements from a date-formatted cell. 
+The  "Order Date" column .  
 
 The syntax for the formula in K2 was
 
